@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> заголовок</title>
+        <script>
+            /* опросник*/
+           let question1 = prompt('How mach is 2+2?'); 
+           count = 0;
+           switch(question1){
+               case "4":
+                   count += 10;
+                   console.log(count);// check
+                   break
+               default:    
+           }
+           let question2 = confirm("The sun rises it the east?");
+           switch(question2){
+               case true:
+                   count +=10;
+                   console.log(count);// check
+           }
+           let question3 = prompt("How mach is 5/0?");
+           switch(question3){
+               case "0":
+                   count +=10;
+                   console.log(count);
+           default:        
+           }
+           alert(`Your result is: ${count}`);
+          
+        </script>
+
+    </head>
+    <body>
+        основное содержимое страницы
+    </body>
+</html>
