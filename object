@@ -1,0 +1,6 @@
+const obj = {
+  feature: 'earth',
+  style: {
+    color: 'black'
+  }
+}
