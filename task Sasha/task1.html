@@ -18,14 +18,16 @@
        <label for="answer">What do you want to do:</label> 
        <button id="add" type="add" class="btn" >Add</button>
        <button id="sub" type="sub" class="btn">Sub</button>
+       
        <button type="mult" class="btn">Mult</button>
        <button type="div" class="btn">Div</button>
        <label for="answer">Enter your answer:</label>
        <input type="text">
-     <script>
-         let elem1 = document.querySelector('#elem1');
-         alert(elem1);
+     
+       <script>
+         let elem1 = document.querySelector('elem1');
          let elem2 = document.getElementById('#elem2');
+         
          let button1 = document.querySelector('#add');
          button1.addEventListener('click', function() {alert(elem1)});   
          let button2 = document.querySelector('#sub');
