@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container label {
+    display:block;
+    padding: 10px;
+}
+.container {
+    padding: 20px;
+    margin-top: 10px;
+}
+.container input{
+    height: 25px;
+}
+
+.btn{
+    background: burlywood;
+    height: 30px;
+    width:50px;
+    border-radius: 5px;
+    
+}
