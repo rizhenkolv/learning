@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Forma</title>
+</head>
+<body>
+   <div class="container">
+        <label for="first">Enter the first number from 0 to 9:</label> 
+        <input id="elem1" type="number">
+
+       <label for="second">Enter the second number from 0 to 9:</label> 
+       <input id="elem2" type="number">
+
+       <label for="answer">What do you want to do:</label> 
+       <button onclick="add()" id="add" type="add" class="btn" >Add</button>
+       <button onclick="sub()" id="sub" type="sub" class="btn">Sub</button>
+       <button onclick="mult()" type="mult" class="btn">Mult</button>
+       <button onclick="div()" type ="div" class="btn">Div</button>
+
+       <label for="result">Enter your answer:</label>
+       <input id="result" type="text" >
+     <script>
+         /* let input = document.querySelector('input');
+         let elem2 = document.getElementById('elem2').value;
+         button1.addEventListener('click', function() {console.log(input.value)});   
+         let button2 = document.querySelector('#sub');
+         button2.addEventListener('click', function() {console.log(elem2)});
+         let button1 = document.querySelector('#add');
+         */
+         
+         /*Вопрос: Почему не находит переменную при таком коде?
+         let elem1, elem2, result;
+         elem1 = document.getElementById('elem1').value;
+         elem2 = document.getElementById('elem2').value;
+         console.log(elem1);*/
+
+         
+         // Код для остановки вычислений при красном окне, нужно
+         // привязать запуск функции по кнопке только при выполнении условия
+         /*
+         function formValidation(){
+         if (document.getElementById('elem1').value > 0 && document.getElementById('elem1').value <= 9) {
+            document.getElementById('result').style.background = 'green';
+            document.getElementById('add').onclick = add();
+            //let button1 = document.querySelector('#add');
+            //document.getElementById('#add').onclick= add();
+            //document.getElementById('add').addEventListener('click', add());
+         } else {
+             document.getElementById('result').style.background = 'red';
+        }
+        } 
+       */
+        
+        // Этот код работает, но не останавливает вычисления при красном окне
+        
+        function formValidation(){
+         if (document.getElementById('elem1').value > 0 && document.getElementById('elem1').value <= 9 &&document.getElementById('elem2').value > 0 && document.getElementById('elem2').value <= 9 ) {
+            document.getElementById('result').style.background = 'green';
+        } else {
+             document.getElementById('result').style.background = 'red';
+        }
+        }
+         function add(){
+           formValidation();
+           if(document.getElementById('result').style.background == 'green') {
+           let addResult = Number(document.getElementById('elem1').value) + Number(document.getElementById('elem2').value);
+           document.getElementById('result').value = addResult;
+           }
+         }
+
+         function sub(){
+            formValidation();
+            if(document.getElementById('result').style.background == 'green'){
+             let subResult = document.getElementById('elem1').value - document.getElementById('elem2').value;
+             document.getElementById('result').value = subResult;
+            }
+         }
+        
+         function mult(){
+            formValidation();
+            if(document.getElementById('result').style.background == 'green') {
+             let multResult = document.getElementById('elem1').value * document.getElementById('elem2').value;
+             document.getElementById('result').value = multResult;
+         }
+        }
+         function div(){
+            formValidation();
+            if(document.getElementById('result').style.background == 'green') {
+             let divResult = document.getElementById('elem1').value / document.getElementById('elem2').value;
+             document.getElementById('result').value = divResult;
+         }
+        }
+      
+         
+     </script>
+   </div> 
+</body>
+</html>
