@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T12:45:07.730Z" agent="5.0 (Macintosh)" etag="84W_xiHE27VnEKJDOWfR" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T15:39:05.179Z" agent="5.0 (Macintosh)" etag="cFvnZ0zXSRIsc86lIqEg" version="20.6.0" type="github">
   <diagram id="zNRqwmhwt8EUDC5XJ66e" name="Page-1">
-    <mxGraphModel dx="1422" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,17 +27,17 @@
         <mxCell id="5-WwUPLBj0hoFkO52xAp-14" value="Home page" style="text;html=1;strokeColor=#ae4132;fillColor=#fad9d5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="330" y="50" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5-WwUPLBj0hoFkO52xAp-18" value="&lt;div&gt;State: &lt;br&gt;&lt;/div&gt;&lt;div&gt;inside: room/office&lt;/div&gt;&lt;div&gt;outside:&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#ae4132;fillColor=#fad9d5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+        <mxCell id="5-WwUPLBj0hoFkO52xAp-18" value="&lt;div&gt;State: &lt;br&gt;&lt;/div&gt;&lt;div&gt;inside: room/office&lt;/div&gt;&lt;div&gt;outside: garden&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#ae4132;fillColor=#fad9d5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="240" y="540" width="350" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="5-WwUPLBj0hoFkO52xAp-19" value="&lt;div&gt;Footer: social media, podcast,&lt;/div&gt;&lt;div&gt;contact us&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+        <mxCell id="5-WwUPLBj0hoFkO52xAp-19" value="&lt;div&gt;&lt;font color=&quot;#007FFF&quot;&gt;&lt;i&gt;Footer&lt;/i&gt;&lt;/font&gt;: social media, podcast,&lt;/div&gt;&lt;div&gt;contact us&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="260" y="371" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5-WwUPLBj0hoFkO52xAp-20" value="Image + sensor&#39;s links" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="130" y="650" width="270" height="40" as="geometry" />
+          <mxGeometry x="130" y="690" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5-WwUPLBj0hoFkO52xAp-21" value="&lt;div&gt;data:&lt;/div&gt;&lt;div&gt;charts&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="500" y="650" width="280" height="90" as="geometry" />
+          <mxGeometry x="500" y="690" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5-WwUPLBj0hoFkO52xAp-26" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="40" y="106.34" width="730" height="163.66" as="geometry" />
@@ -100,14 +100,17 @@
         <mxCell id="5-WwUPLBj0hoFkO52xAp-32" value="Navigation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=3;fontColor=#3399FF;" parent="5-WwUPLBj0hoFkO52xAp-31" vertex="1">
           <mxGeometry x="360" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qWBdLTRW1uxHAdSCUCcN-2" value="&lt;div align=&quot;left&quot;&gt;DATA:&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Temperature outside&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Temperature heating&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Temperature inside&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Humidity&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;CO2&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Water &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Electricity&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Ground floor moisture&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Windows(open/close)&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Doors (open/close)&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Is anybody home?:)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#3399FF;align=center;" vertex="1" parent="1">
-          <mxGeometry x="130" y="750" width="480" height="470" as="geometry" />
+        <mxCell id="qWBdLTRW1uxHAdSCUCcN-2" value="&lt;div align=&quot;left&quot;&gt;DATA:&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Temperature outside&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Temperature heating&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Temperature inside&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Humidity&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;CO2&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Water &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Electricity&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Ground floor moisture&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Windows(open/close)&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Doors (open/close)&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Occupation&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fontColor=#3399FF;align=center;" parent="1" vertex="1">
+          <mxGeometry x="500" y="780" width="270" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="qWBdLTRW1uxHAdSCUCcN-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=19;fontColor=#000000;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="620" as="sourcePoint" />
-            <mxPoint x="460" y="570" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="PkoF5WW3h1mMY5e2k3KO-2" value="Navigation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;strokeColor=#00060D;fontColor=#007FFF;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="240" y="650" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PkoF5WW3h1mMY5e2k3KO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;fontColor=#007FFF;" edge="1" parent="1" source="qWBdLTRW1uxHAdSCUCcN-2" target="qWBdLTRW1uxHAdSCUCcN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PkoF5WW3h1mMY5e2k3KO-4" value="&lt;div&gt;Sensor ERS ECO CO2 (&lt;font color=&quot;#000000&quot;&gt;temperature inside, CO2, humidity, light&lt;/font&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Water meter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Energy meter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Smart sensor ?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Windows sensor&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Outside thermometer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Heating sensor ?&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00060D;fontSize=19;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="150" y="790" width="260" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
